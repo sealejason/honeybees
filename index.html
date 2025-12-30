@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Magnificent Honey Bee</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #FFF8DC 0%, #FFE4B5 100%);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(to bottom, rgba(255,215,0,0.3), transparent);
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #D4A017;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .bee-icon {
+            font-size: 4em;
+            margin: 20px 0;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #D4A017;
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #FFD700;
+            padding-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .highlight {
+            background: #FFF8DC;
+            padding: 20px;
+            border-left: 5px solid #FFD700;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .facts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .fact-card {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFEFD5 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #FFD700;
+        }
+        
+        .fact-card h3 {
+            color: #D4A017;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            h2 { font-size: 1.5em; }
+            .container { padding: 10px; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="bee-icon">🐝</div>
+            <h1>The Magnificent Honey Bee</h1>
+            <p class="subtitle">Nature's tiny miracle workers</p>
+        </header>
+
+        <section>
+            <h2>Architects of Our Ecosystem</h2>
+            <p>Honey bees are among the most important creatures on Earth. These remarkable insects are responsible for pollinating approximately one-third of the food we eat. Without their tireless work, our dinner plates would look dramatically different—and far less colorful.</p>
+            <p>Every day, a single bee visits between 50 and 100 flowers during each collection trip. A hive of bees can fly over 55,000 miles to make just one pound of honey, visiting more than 2 million flowers in the process. This extraordinary dedication sustains not just their colonies, but entire ecosystems.</p>
+        </section>
+
+        <section>
+            <h2>Masters of Organization</h2>
+            <p>The honey bee colony is a marvel of social organization. Each hive operates as a superorganism, with tens of thousands of bees working in perfect harmony. The queen, workers, and drones each have specific roles that ensure the survival of the colony.</p>
+            <div class="highlight">
+                <strong>Did you know?</strong> Honey bees communicate through dance! The famous "waggle dance" tells other bees exactly where to find the best flowers, conveying direction and distance with remarkable precision.
+            </div>
+        </section>
+
+        <section>
+            <h2>Amazing Bee Facts</h2>
+            <div class="facts">
+                <div class="fact-card">
+                    <h3>🍯 Liquid Gold</h3>
+                    <p>Honey never spoils. Archaeologists have found 3,000-year-old honey in Egyptian tombs that was still perfectly edible.</p>
+                </div>
+                <div class="fact-card">
+                    <h3>👑 The Queen's Reign</h3>
+                    <p>A queen bee can live 3-5 years and lay up to 2,000 eggs per day during peak season.</p>
+                </div>
+                <div class="fact-card">
+                    <h3>✈️ Incredible Flyers</h3>
+                    <p>Honey bees can fly at speeds of up to 15 miles per hour and beat their wings 200 times per second.</p>
+                </div>
+                <div class="fact-card">
+                    <h3>🌍 Global Impact</h3>
+                    <p>Bees contribute over $15 billion to U.S. crop production annually through pollination services.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Guardians We Must Protect</h2>
+            <p>Sadly, honey bee populations face serious threats from habitat loss, pesticides, disease, and climate change. Colony Collapse Disorder has devastated bee populations worldwide, making conservation efforts more critical than ever.</p>
+            <p>We can all help: plant bee-friendly flowers, avoid pesticides, support local beekeepers, and spread awareness about these incredible insects. The future of our food security depends on the health of these tiny, remarkable creatures.</p>
+            <div class="highlight">
+                <strong>Every action counts.</strong> Even a small garden with native flowers can provide vital food sources for local bee populations.
+            </div>
+        </section>
+
+        <footer>
+            <p>🐝 "The bee is more honored than other animals, not because she labors, but because she labors for others." - St. John Chrysostom 🐝</p>
+        </footer>
+    </div>
+</body>
+</html>
